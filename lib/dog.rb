@@ -1,4 +1,4 @@
-class Dog(name)
+class Dog
 
 def name=(name)
 @name = name
@@ -8,11 +8,11 @@ def name
 @name
 end
 
-def breeds=(breed)
+def breed=(breed)
 @breed = breed
 end
 
-def breeds
+def breed
 @breed
 end
 
